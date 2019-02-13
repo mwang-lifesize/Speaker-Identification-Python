@@ -20,7 +20,8 @@ file_paths = open(test_file,'r')
 source   = "SampleData/"   
 
 #path where training speakers will be saved
-modelpath = "Speakers_models/"
+#modelpath = "Speakers_models/"
+modelpath = "speaker_models_lifesize/"
 
 gmm_files = [os.path.join(modelpath,fname) for fname in 
               os.listdir(modelpath) if fname.endswith('.gmm')]

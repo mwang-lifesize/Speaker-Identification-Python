@@ -1,7 +1,8 @@
 import cPickle
 import numpy as np
 from scipy.io.wavfile import read
-from sklearn.mixture import GMM 
+#from sklearn.mixture import GMM 
+from sklearn.mixture import GaussianMixture
 from featureextraction import extract_features
 #from speakerfeatures import extract_features
 import warnings
